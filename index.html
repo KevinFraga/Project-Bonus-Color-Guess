@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project Bonus Color Guess</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Texturina:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <img class="logo" src="assets/trybe.ico" alt="Nova logo da Trybe">
+      <p class="header">Projeto Bônus 02 | Color Guess</p>
+    </header>
+    <main>
+      <h1 id="title">Advinhe a Cor!</h1>
+      <article>
+        <div>
+          <p id="rgb-color" class="salt">(168, 34, 1)</p>
+          <p id="score" class="salt">Placar: 0</p>
+        </div>
+        <aside id="colors">
+          <div class="ball"></div>
+          <div class="ball"></div>
+          <div class="ball"></div>
+          <div class="ball"></div>
+          <div class="ball"></div>
+          <div class="ball"></div>
+        </aside>
+        <h2 id="answer" class="salt">Escolha uma cor</h2>
+        <button id="reset-game">Reiniciar o Jogo</button>
+      </article>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
