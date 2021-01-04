@@ -6,7 +6,7 @@
 
 :owl: Advinhe a cor gerada a partir do rgb impresso na tela.
 
-:genie: Todos as cores foram criadas "automagicamente"!
+:genie: Todas as cores foram criadas "automágicamente"!
 
 #### Nota
 
